@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in Express.js applications: unhandled errors within asynchronous middleware. The `bug.js` file shows a scenario where an asynchronous operation might throw an error or access a property that is undefined leading to a crash. The `bugSolution.js` file presents the improved code with proper error handling.
